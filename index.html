@@ -252,14 +252,10 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
      
     <script src="bootstrap/js/bootstrap.min.js"></script> 
-    <script type="text/javascript">
-        $(function() {
-            var hash = window.location.hash;
-            hash &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;
-$(&amp;amp;amp;amp;amp;amp;amp;amp;amp;#39;ul.nav
-a[href=&amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;#39; + hash +
-&amp;amp;amp;amp;amp;amp;amp;amp;amp;#39;&amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;]&amp;amp;amp;amp;amp;amp;amp;amp;amp;#39;).tab(&amp;amp;amp;amp;amp;amp;amp;amp;amp;#39;show&amp;amp;amp;amp;amp;amp;amp;amp;amp;#39;);
-        });
-        
-</script></body>
+	<script type="text/javascript">
+	$(function() {
+	    var hash = window.location.hash;
+	    hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+	});
+	</script></body>
 </html>
